@@ -262,8 +262,13 @@ def main():
 
     # Footer
     st.markdown("---")
-    st.caption("🔐 Passwords are processed locally and never stored • v1.0")
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: center; padding: 1rem 0; font-size: 0.9rem; color: #555;">
+    <p>🔐 Passwords are processed locally and never stored.</p>
+    <p>Created with passion by <strong>Hamza Ahmed</strong> • v1.0</p>
+    </div>
+""", unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
